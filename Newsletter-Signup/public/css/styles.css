@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+}
+
+body {
+  height: 100vh; /* changed from 100% to 100vh to cover full screen height*/
+  display: flex;
+  align-items: center;
+  justify-content: center; /* This line added to the body style, will center the form horizontally within the flexbox layout. */
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+.middle {
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
